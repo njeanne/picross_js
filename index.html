@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PiCross App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+    <div id="available_picross"></div>
+    <aside>
+      <div id="input_form_table">
+        <form>
+          <label for="picross_title">Titre de mon Picross:</label><br />
+          <input type="text" id="picross_title" size="50" /><br />
+          <label for="nb_row">Nombre de lignes du Picross:</label><br />
+          <input type="number" id="nb_row" value="4" /><br />
+          <label for="nb_col">Nombre de colonnes du Picross:</label><br />
+          <input type="number" id="nb_col" value="4" /><br />
+        </form>
+        <button type="button" id="virgin_picross">
+          Générer le tableau vierge Picross</button
+        ><br />
+        <button type="button" id="generate_picross">Créer la solution</button
+        ><br />
+        <button type="button" id="choose_picross">Choisir un pycross</button
+        ><br />
+      </div>
+    </aside>
+    <div>
+      <table id="picross_player"></table>
+    </div>
+  </body>
+</html>

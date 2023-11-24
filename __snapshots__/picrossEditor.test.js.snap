@@ -1,0 +1,55 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`picrossEditor > création de picross 1`] = `
+<table
+  id="picross_player"
+>
+  <tr>
+    <td />
+    <td />
+    <td />
+    <td />
+  </tr>
+  <tr>
+    <td />
+    <td />
+    <td />
+    <td />
+  </tr>
+  <tr>
+    <td />
+    <td />
+    <td />
+    <td />
+  </tr>
+</table>
+`;
+
+exports[`picrossEditor > modification du picross en cliquant sur les cellules 1`] = `
+<table
+  id="picross_player"
+>
+  <tr>
+    <td
+      class="bg-blue"
+    />
+    <td />
+    <td />
+    <td />
+  </tr>
+  <tr>
+    <td />
+    <td />
+    <td
+      class="bg-blue"
+    />
+    <td />
+  </tr>
+  <tr>
+    <td />
+    <td />
+    <td />
+    <td />
+  </tr>
+</table>
+`;
