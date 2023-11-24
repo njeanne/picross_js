@@ -1,2 +1,2 @@
 # picross_js
-Formation picross
+Formation JavaScript
